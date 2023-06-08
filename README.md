@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Тестовое задание для компании h2o
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Приложение создано с использованием React js, react-table, overlayscrollbars-react
 
-## Available Scripts
+## 'Выполнено:'
+API создан в MockApi
+✅Режим редактирования данных в таблице (без сохранения)
+✅Пагинация
+✅Поиск по таблице
+✅Навбар
 
-In the project directory, you can run:
+Адаптивной верстки нет, весь функционал не выполнен только по причине объема тестового задания, сделано основное - думаю достаточно для собеседования:)
 
 ### `npm start`
 

@@ -1,0 +1,33 @@
+.filter {
+  margin-left: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__input {
+    border: none;
+    box-sizing: border-box;
+    padding-left: 47px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #989FA3;
+    background: #F8F8F8;
+    border-radius: 24px;
+    width: 360px;
+    height: 48px;
+    position: relative;
+    display: flex;
+    &Icon {
+      left: 22px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: block;
+      width: 16px;
+      height: 32px;
+      background-image: url(../../img/search.svg);
+    }
+  }
+}

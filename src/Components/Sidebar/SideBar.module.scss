@@ -1,0 +1,32 @@
+.sidebar {
+  padding-top: 56px;
+  background: linear-gradient(180deg, #54D3C2 0%, #30898A 100%);
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 267px;
+  gap: 80px;
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    &Item {
+      display: flex;
+      align-items: center;
+      border-radius: 16px;
+      justify-content: center;
+      height: 64px;
+      width: 64px;
+      transition: 1s;
+      &:hover {
+        transition: 0s;
+        background: rgba(169, 233, 224, 0.75);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,46 @@
+.contact {
+  margin-bottom: 81px;
+  border-radius: 32px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  height: 127px;
+  background-color: #fff;
+  display: flex;
+  max-width: 1318px;
+  width: 100%;
+  align-items: center;
+  padding: 0 35px;
+  &__refactor {
+    cursor: pointer;
+    letter-spacing: -0.56px;
+    box-sizing: border-box;
+    color: #54D3C2;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background: transparent;
+    height: 48px;
+    width: 198px;
+    border: 1.5px solid #54D3C2;
+    border-radius: 24px;
+  }
+  &__text {
+    color: #6D7986;
+  }
+  &__count {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.56px;
+    color: #54D3C2;
+  }
+  &__container {
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+}

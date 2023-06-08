@@ -1,0 +1,29 @@
+/* Пример стилей */
+.my-custom-scrollbar {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 32px;
+}
+.my-custom-scrollbar .os-scrollbar.os-scrollbar-horizontal {
+    margin-left: auto;
+    max-width: 1137px;
+    background-color: #F8F8F8;
+}
+
+.my-custom-scrollbar .os-scrollbar.os-scrollbar-vertical {
+    display: none;
+}
+
+.my-custom-scrollbar .os-scrollbar-thumb {
+
+}
+
+.my-custom-scrollbar .os-scrollbar-track {
+  /* Стили для трека полосы прокрутки */
+}
+
+.my-custom-scrollbar .os-scrollbar-corner {
+  /* Стили для угла полосы прокрутки (если применимо) */
+}
